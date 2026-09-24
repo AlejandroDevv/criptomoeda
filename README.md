@@ -12,7 +12,7 @@ O projeto utiliza uma API para obter informações atualizadas sobre diferentes 
 - API de dados de criptomoedas
 - CSS
 
-- ## ✨ Funcionalidades
+ ## ✨ Funcionalidades
 
 - 📊 Listagem de criptomoedas
 - 🔎 Consulta de informações sobre diferentes criptomoedas
@@ -20,7 +20,7 @@ O projeto utiliza uma API para obter informações atualizadas sobre diferentes 
 - 🔄 Consumo de dados através de API
 - 📱 Interface responsiva
 
-- ## 🌐 Demonstração
+ ## 🌐 Demonstração
 
 🔗 [Acessar aplicação](https://criptomoeda-inky.vercel.app/)
 
@@ -39,6 +39,10 @@ cd criptomoeda
 npm install
 npm run dev
 
+
+E depois deixe **Autor** separado:
+
+```md
 ## 👨‍💻 Autor
 
 **Alejandro Oliveira**
