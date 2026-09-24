@@ -40,9 +40,7 @@ npm install
 
 npm run dev
 
-
-
-```md
+```
 ## 👨‍💻 Autor
 
 **Alejandro Oliveira**
