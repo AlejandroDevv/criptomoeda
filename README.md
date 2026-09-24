@@ -23,3 +23,25 @@ O projeto utiliza uma API para obter informações atualizadas sobre diferentes 
 - ## 🌐 Demonstração
 
 🔗 [Acessar aplicação](https://criptomoeda-inky.vercel.app/)
+
+## ⚙️ Como executar o projeto
+
+### Pré-requisitos
+
+- Node.js instalado
+- Git instalado
+
+### Instalação
+
+```bash
+git clone https://github.com/AlejandroDevv/criptomoeda.git
+cd criptomoeda
+npm install
+npm run dev
+
+## 👨‍💻 Autor
+
+**Alejandro Oliveira**
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/alejandro-oliveira/)
+- 🐙 [GitHub](https://github.com/AlejandroDevv)
