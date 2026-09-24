@@ -37,10 +37,10 @@ O projeto utiliza uma API para obter informações atualizadas sobre diferentes 
 git clone https://github.com/AlejandroDevv/criptomoeda.git
 cd criptomoeda
 npm install
+
 npm run dev
 
 
-E depois deixe **Autor** separado:
 
 ```md
 ## 👨‍💻 Autor
