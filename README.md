@@ -4,6 +4,11 @@ Aplicação web desenvolvida com React e TypeScript para consulta e visualizaç�
 
 O projeto utiliza uma API para obter informações atualizadas sobre diferentes criptomoedas e apresenta esses dados de forma organizada e intuitiva.
 
+## 📸 Preview
+
+<img width="1920" height="1025" alt="Captura de tela 2026-09-24 102854" src="https://github.com/user-attachments/assets/6a97e94c-3589-4451-b315-73465a2923aa" />
+
+
 ## 🛠️ Tecnologias utilizadas
 
 - React
