@@ -2,6 +2,7 @@ import {useEffect, useState} from 'react'
 import { useParams, useNavigate} from 'react-router-dom'
 import { type CoinProps } from '../home'
 import styles from './detail.module.css'
+const API_KEY = import.meta.env.VITE_COINCAP_API_KEY;
 
 interface ResponseData {
   data: CoinProps
@@ -23,7 +24,7 @@ export function Detail() {
   useEffect(() => {
     async function getCoin(){
       try{
-        fetch(`https://rest.coincap.io/v3/assets/${cripto}?apiKey=5911bb43d61f23eb1182770f7dc28d79515b282cb7a97a52bd23176fc04113ce`)
+        fetch(`https://rest.coincap.io/v3/assets/${cripto}?apiKey=${API_KEY}`)
         .then(response => response.json())
         .then((data: DataProps) => {
           if('error' in data){

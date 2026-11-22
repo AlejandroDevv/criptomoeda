@@ -1,0 +1,9 @@
+[33mcommit 0c1444925fd6d94ae65949d53f3a18f0eae3fe11[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: devale <alejandro-oliveira@live.com>
+Date:   Sun Nov 22 10:48:55 2026 -0300
+
+    remove dependencias nao utilizadas
+
+ package-lock.json | 66 [32m++++[m[31m---------------------------------------------------[m
+ package.json      |  5 [32m+[m[31m----[m
+ 2 files changed, 5 insertions(+), 66 deletions(-)

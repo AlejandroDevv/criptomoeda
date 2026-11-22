@@ -3,6 +3,8 @@ import styles from './home.module.css'
 import { BsSearch } from 'react-icons/bs'
 import { Link, useNavigate } from 'react-router-dom'
 
+const API_KEY = import.meta.env.VITE_COINCAP_API_KEY;
+
 export interface CoinProps{
   id: string;
   name: string;
@@ -40,7 +42,7 @@ export function Home() {
   useEffect(() => {
 
       async function getData(){
-        fetch(`https://rest.coincap.io/v3/assets?limit=10&offset=${offset}&apiKey=5911bb43d61f23eb1182770f7dc28d79515b282cb7a97a52bd23176fc04113ce`)
+        fetch(`https://rest.coincap.io/v3/assets?limit=10&offset=${offset}&apiKey=${API_KEY}`)
           .then(response => response.json())
           .then((data: DataProp) => {
           const coinsData = data.data;
