@@ -1,40 +1,43 @@
 # 🪙 Criptomoedas
 
-Aplicação web desenvolvida com React e TypeScript para consulta e visualização de dados de criptomoedas.
-
-O projeto utiliza uma API para obter informações atualizadas sobre diferentes criptomoedas e apresenta esses dados de forma organizada e intuitiva.
+Aplicação web para acompanhar o mercado de criptomoedas, com lista de moedas, busca e página de detalhes. Desenvolvida com React, TypeScript e Vite, consumindo dados da API da CoinCap.
 
 ## 📸 Preview
 
-<img width="1920" height="1025" alt="Captura de tela 2026-09-24 102854" src="https://github.com/user-attachments/assets/6a97e94c-3589-4451-b315-73465a2923aa" />
+![PReview da aplicação](./public/print-%20preview.png)
 
+## 🌐 Demonstração
+
+🔗 [Acessar aplicação](https://criptomoeda-inky.vercel.app/)
+
+## ✨ Funcionalidades
+
+- 📊 Listagem de criptomoedas com preço, volume, valor de mercado e variação em 24h
+- 🔎 Busca de moedas pelo nome
+- 📄 Página de detalhes de cada criptomoeda
+- ♾️ Carregamento de mais moedas ao rolar a página
+- 🔄 Consumo de dados via API REST
+- 📱 Interface responsiva
 
 ## 🛠️ Tecnologias utilizadas
 
-- React
+- React 19
 - TypeScript
 - Vite
-- API de dados de criptomoedas
+- React Router
+- React Icons
+- React Compiler
+- ESLint
 - CSS
-
- ## ✨ Funcionalidades
-
-- 📊 Listagem de criptomoedas
-- 🔎 Consulta de informações sobre diferentes criptomoedas
-- 📄 Visualização de detalhes de uma criptomoeda
-- 🔄 Consumo de dados através de API
-- 📱 Interface responsiva
-
- ## 🌐 Demonstração
-
-🔗 [Acessar aplicação](https://criptomoeda-inky.vercel.app/)
+- [CoinCap API](https://docs.coincap.io/)
 
 ## ⚙️ Como executar o projeto
 
 ### Pré-requisitos
 
-- Node.js instalado
-- Git instalado
+- Node.js (versão recente, 20.19 ou superior)
+- Git
+- Uma chave de API da [CoinCap](https://docs.coincap.io/)
 
 ### Instalação
 
@@ -42,10 +45,31 @@ O projeto utiliza uma API para obter informações atualizadas sobre diferentes 
 git clone https://github.com/AlejandroDevv/criptomoeda.git
 cd criptomoeda
 npm install
+```
 
-npm run dev
+### Configurando a chave da API
+
+Crie um arquivo `.env` na raiz do projeto, seguindo o modelo do `.env.example`:
 
 ```
+VITE_COINCAP_API_KEY=sua_chave_aqui
+```
+
+### Executando
+
+```bash
+npm run dev
+```
+
+O projeto abrirá em `http://localhost:5173`.
+
+Para gerar a versão de produção:
+
+```bash
+npm run build
+npm run preview
+```
+
 ## 👨‍💻 Autor
 
 **Alejandro Oliveira**
